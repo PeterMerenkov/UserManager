@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+		<head>
+				<meta charset="utf-8">
+				<link rel="stylesheet" href="styles/style.css">
+				<title>Заголовок</title>
+		</head>
+
+		<body>
+				<main>
+						<form>
+							<div>
+								<label>Имя пользователя:<br>
+									<input type="text" id="username"><br>
+								</label>
+
+								<label>Пароль:<br>
+										<input type="password" id="password"><br>
+								</label>
+							</div>
+
+							<div class="buttons">
+									<input type="submit" id="add_button" value="Добавить">
+
+									<input type="submit" id="save_button" value="Сохранить">
+							</div>
+						</form>
+
+						<table>
+								<thead>
+										<tr>
+												<td>ID</td><td>Пользователь</td><td>Пароль</td><td>Изменить</td><td>Удалить</td>
+										</tr>
+								</thead>
+
+								<tbody id="tbody"></tbody>
+						</table>
+				</main>
+
+				<script src="scripts/script.js"></script>
+		</body>
+</html>
